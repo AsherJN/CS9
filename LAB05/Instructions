@@ -1,4 +1,16 @@
 """
+In this lab, you’ll have the opportunity to practice:
+
+Defining classes in Python
+Overloading an operator in a Python class
+Implementing an Ordered Linked List
+Testing your functionality with pytest
+Note: It is important that you start this lab early so you can utilize our office hours to seek assistance / ask clarifying questions during the week before the deadline if needed!
+
+You will write a program that will organize Book objects into a Book Collection. The Book Collection will be implemented as an Ordered Linked List with a head reference. The implementation in this lab will be different than an Unordered Linked List since you will need to organize the nodes by the Book’s author (in lexicographical / alphabetical order). In the event of a tie (several books are written by the same author), the published year will be used to determine the Book object’s place in the Ordered Linked List. If the author and year published are the same, then the Book’s title (lexicographical / alphabetical order) will be used to determine the Book object’s place in the Ordered Linked List.
+
+This lab will require you to define classes for a Book, BookCollection, and a BookCollectionNode, as well as writing your own unit tests to verify the correctness of your implementation.
+
 Instructions
 You will need to create four files:
 
