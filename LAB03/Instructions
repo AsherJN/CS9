@@ -1,4 +1,9 @@
 """
+In this lab, we’ll practice:
+
+Writing recursive functions based on a specification.
+Practice writing pytests to ensure your recursive functions are correct.
+
 Instructions
 For this lab, you will need to create two files:
 
